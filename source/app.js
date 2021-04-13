@@ -19,14 +19,14 @@ hbs.registerPartials(partialsPath)
 
 app.get('' , (req , res) =>{
     res.render('index' , {
-        title : 'Weather APP ',
+        title : 'Weather Site ',
         name : 'Deepanshu Gadia'
     })
 })
 
 app.get('/about' , (req , res) =>{
     res.render('about' , {
-        title : 'Weather app ',
+        title : 'About',
         name : 'Deepanshu Gadia'
     })
 })

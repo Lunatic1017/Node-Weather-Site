@@ -1,9 +1,9 @@
 body{
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 650px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 16px;
+    
 
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ footer{
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
-
+    font-weight: bold;
 }
 
 header{
@@ -23,14 +23,25 @@ header{
     margin-bottom: 48px;
 }
 
+
 h1{
     font-size: 64px;
     margin-bottom: 16px;
 }
 
+
 header a{
     color: #888888;
     text-decoration: none;
+    background-color:rgb(25, 80, 180);
+	color:white;
+	display:block;
+	width:240px;
+	text-align:center;
+	padding: 10px 0;
+    float: left;
+
+    
 }
 
 .portrait{
@@ -40,3 +51,38 @@ header a{
 .main-page{
     flex-grow: 1;
 }
+
+.Head{
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+.info{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+.input{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#Message1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#Message2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Foot{
+    background-color: lightblue;
+    text-align: center;
+}
+
